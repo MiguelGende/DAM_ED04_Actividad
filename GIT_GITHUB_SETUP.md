@@ -1,6 +1,6 @@
 # CONFIGURACIÓN GIT Y GITHUB - Documentación Completa
 
-## ✅ 1. Configuración de Git Local - COMPLETADO
+## 1. Configuración de Git Local - COMPLETADO
 
 ### Inicialización del repositorio
 ```bash
@@ -13,10 +13,10 @@ Initialized empty Git repository in /Users/miguel/Desktop/TAREAS DAW 2/CONTORNOS
 ```
 
 ### Configuración de usuario Git
-- **Usuario:** MiguelGende
-- **Email:** miguel.gende@gmail.com
+- **Usuario:** [Usuario configurado]
+- **Email:** [Email configurado]
 
-## ✅ 2. Primer Commit - COMPLETADO
+## 2. Primer Commit - COMPLETADO
 
 ### Archivos agregados al staging area
 ```bash
@@ -64,7 +64,7 @@ git commit -m "Initial commit: Proyecto cuentas bancarias con refactorización c
 - Configuración de .gitignore para Java
 - README.md con documentación del proyecto
 
-## ✅ 3. Historial de Versiones - COMPLETADO
+## 3. Historial de Versiones - COMPLETADO
 
 ### Comando para mostrar el historial
 ```bash
@@ -75,7 +75,7 @@ git log --stat
 
 ```
 commit [hash completo]
-Author: MiguelGende <miguel.gende@gmail.com>
+Author: [Usuario] <[email]>
 Date:   [fecha actual]
 
     Initial commit: Proyecto cuentas bancarias con refactorización completa
@@ -121,7 +121,7 @@ git log --graph --oneline --all
 git log --pretty=format:"%h - %an, %ar : %s"
 ```
 
-## 📋 4. Crear Repositorio Público en GitHub
+## 4. Crear Repositorio Público en GitHub
 
 ### Opción A: Usando GitHub Web Interface (Recomendado)
 
@@ -134,7 +134,7 @@ git log --pretty=format:"%h - %an, %ar : %s"
 4. **Configurar el repositorio:**
    - **Repository name:** `DAM_ED04_Actividad`
    - **Description:** "Proyecto Java de gestión de cuentas bancarias - Actividad ED04"
-   - **Visibility:** ✅ Public
+   - **Visibility:** Public
    - **NO** marcar "Initialize this repository with a README" (ya tenemos uno)
    - Click en "Create repository"
 
@@ -159,7 +159,7 @@ gh auth login
 gh repo create DAM_ED04_Actividad --public --source=. --remote=origin --push
 ```
 
-## 📊 Verificación Post-Push
+## Verificación Post-Push
 
 Después de hacer push a GitHub, verificar:
 
@@ -174,7 +174,7 @@ git status
 git branch -a
 ```
 
-## 📝 Comandos Git Útiles para el Futuro
+## Comandos Git Útiles para el Futuro
 
 ### Ver cambios
 ```bash
@@ -215,24 +215,8 @@ git checkout nombre    # Cambiar de rama
 git merge nombre       # Fusionar rama
 ```
 
-## 🎯 Resumen de lo Realizado
-
-✅ **Configuración Git:** Repositorio inicializado con configuración de usuario
-✅ **Commit Inicial:** 13 archivos, 1613 líneas, mensaje descriptivo completo
-✅ **Historial:** Visualizado con múltiples comandos (git log, git log --stat)
-⏳ **GitHub:** Pendiente de crear repositorio público y hacer push
-
-## 📌 Próximos Pasos
-
-1. Crear repositorio público en GitHub con el nombre `DAM_ED04_Actividad`
-2. Conectar el repositorio local con el remoto
-3. Hacer push del commit inicial
-4. Verificar que los archivos estén en GitHub
-5. (Opcional) Añadir badges al README.md
-6. (Opcional) Configurar GitHub Pages si se desea
 
 ---
 
 **Fecha:** 19 de Enero de 2026
 **Proyecto:** DAM_ED04_Actividad
-**Autor:** MiguelGende
