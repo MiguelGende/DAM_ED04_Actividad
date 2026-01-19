@@ -1,13 +1,13 @@
 package cuentas;
 
 /**
- * Main class demonstrating account operations
+ * Clase principal que demuestra las operaciones con cuentas
  */
 public class Main {
 
     /**
-     * Main entry point
-     * @param args Command line arguments
+     * Punto de entrada principal
+     * @param args Argumentos de línea de comandos
      */
     public static void main(String[] args) {
         CCuenta cuenta1;
@@ -21,9 +21,9 @@ public class Main {
     }
 
     /**
-     * Performs account operations (withdraw and deposit)
-     * @param cuenta1 The account to operate on
-     * @param cantidad Amount to deposit
+     * Realiza operaciones sobre una cuenta (retiro e ingreso)
+     * @param cuenta1 La cuenta sobre la que operar
+     * @param cantidad Cantidad a ingresar
      */
     public static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         try {

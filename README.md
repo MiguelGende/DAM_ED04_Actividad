@@ -60,11 +60,11 @@ Ingreso en cuenta
 
 ## Refactorizaciones Aplicadas
 
-1.  Migración al paquete `cuentas`
-2.  Renombrado de variable `miCuenta` a `cuenta1`
-3.  Extracción del método `operativa_cuenta`
-4.  Encapsulación completa de atributos
-5.  Parámetro `cantidad` añadido a `operativa_cuenta`
+1. Migración al paquete `cuentas`
+2. Renombrado de variable `miCuenta` a `cuenta1`
+3. Extracción del método `operativa_cuenta`
+4. Encapsulación completa de atributos
+5. Parámetro `cantidad` añadido a `operativa_cuenta`
 
 ## Manejo de Excepciones
 

@@ -2,18 +2,18 @@
 
 ## Cambios Realizados
 
-### 1.  Las clases forman parte del paquete `cuentas`
+### 1. Las clases forman parte del paquete `cuentas`
 - **Antes:** `package dam_ed04_actividad;`
 - **Después:** `package cuentas;`
 - Ambas clases (CCuenta y Main) ahora están en el paquete `cuentas`
 - Ubicación: `/src/cuentas/`
 
-### 2.  Cambio de nombre de variable `miCuenta` por `cuenta1`
+### 2. Cambio de nombre de variable `miCuenta` por `cuenta1`
 - **Antes:** `CCuenta miCuenta;`
 - **Después:** `CCuenta cuenta1;`
 - Todas las referencias a la variable se actualizaron correctamente
 
-### 3.  Método `operativa_cuenta` introducido
+### 3. Método `operativa_cuenta` introducido
 Se creó el método estático `operativa_cuenta` que engloba las operaciones de la clase Main:
 
 ```java
@@ -34,7 +34,7 @@ public static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
 
 El método `main` ahora llama a `operativa_cuenta(cuenta1, 695.0f);`
 
-### 4.  Encapsulación de atributos de CCuenta
+### 4. Encapsulación de atributos de CCuenta
 Se añadieron los siguientes getters y setters que faltaban:
 
 **Nuevos Getters:**
@@ -49,7 +49,7 @@ Se añadieron los siguientes getters y setters que faltaban:
 - `getNombre()` / `setNombre(String nombre)`
 - `getTipoInterés()` / `setTipoInterés(double tipoInterés)`
 
-### 5.  Parámetro `cantidad` de tipo float añadido a `operativa_cuenta`
+### 5. Parámetro `cantidad` de tipo float añadido a `operativa_cuenta`
 - **Firma del método:** `public static void operativa_cuenta(CCuenta cuenta1, float cantidad)`
 - El parámetro `cantidad` se usa en la operación de ingreso: `cuenta1.ingresar(cantidad);`
 - En la llamada desde `main`: `operativa_cuenta(cuenta1, 695.0f);`
@@ -57,8 +57,6 @@ Se añadieron los siguientes getters y setters que faltaban:
 ## Mejoras Adicionales Aplicadas
 
 1. **Documentación JavaDoc:** Se añadió documentación completa a todos los métodos y constructores
-2. **Comentarios en inglés:** Todos los comentarios siguen las convenciones de código
-3. **Formato mejorado:** El código está mejor estructurado y es más legible
 
 ## Estructura del Proyecto Actualizada
 

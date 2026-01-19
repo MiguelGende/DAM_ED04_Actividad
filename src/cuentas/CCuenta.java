@@ -1,7 +1,7 @@
 package cuentas;
 
 /**
- * Class representing a bank account with basic operations
+ * Clase que representa una cuenta bancaria con operaciones básicas
  */
 public class CCuenta {
 
@@ -11,17 +11,17 @@ public class CCuenta {
     private double tipoInterés;
 
     /**
-     * Default constructor
+     * Constructor por defecto
      */
     public CCuenta() {
     }
 
     /**
-     * Constructor with parameters
-     * @param nom Account holder name
-     * @param cue Account number
-     * @param sal Initial balance
-     * @param tipo Interest rate
+     * Constructor con parámetros
+     * @param nom Nombre del titular de la cuenta
+     * @param cue Número de cuenta
+     * @param sal Saldo inicial
+     * @param tipo Tipo de interés
      */
     public CCuenta(String nom, String cue, double sal, double tipo) {
         nombre = nom;
@@ -31,33 +31,33 @@ public class CCuenta {
     }
 
     /**
-     * Assigns a name to the account holder
-     * @param nom Name to assign
+     * Asigna un nombre al titular de la cuenta
+     * @param nom Nombre a asignar
      */
     public void asignarNombre(String nom) {
         setNombre(nom);
     }
 
     /**
-     * Gets the account holder name
-     * @return Account holder name
+     * Obtiene el nombre del titular de la cuenta
+     * @return Nombre del titular
      */
     public String obtenerNombre() {
         return getNombre();
     }
 
     /**
-     * Gets the current balance
-     * @return Current balance
+     * Obtiene el saldo actual de la cuenta
+     * @return Saldo actual
      */
     public double estado() {
         return saldo;
     }
 
     /**
-     * Deposits an amount into the account
-     * @param cantidad Amount to deposit
-     * @throws Exception If the amount is negative
+     * Ingresa una cantidad en la cuenta
+     * @param cantidad Cantidad a ingresar
+     * @throws Exception Si la cantidad es negativa
      */
     public void ingresar(double cantidad) throws Exception {
         if (cantidad < 0) {
@@ -67,9 +67,9 @@ public class CCuenta {
     }
 
     /**
-     * Withdraws an amount from the account
-     * @param cantidad Amount to withdraw
-     * @throws Exception If the amount is negative or exceeds balance
+     * Retira una cantidad de la cuenta
+     * @param cantidad Cantidad a retirar
+     * @throws Exception Si la cantidad es negativa o excede el saldo
      */
     public void retirar(double cantidad) throws Exception {
         if (cantidad <= 0) {
@@ -82,72 +82,72 @@ public class CCuenta {
     }
 
     /**
-     * Gets the account number
-     * @return Account number
+     * Obtiene el número de cuenta
+     * @return Número de cuenta
      */
     public String obtenerCuenta() {
         return cuenta;
     }
 
     /**
-     * Gets the account holder name
-     * @return Account holder name
+     * Obtiene el nombre del titular
+     * @return Nombre del titular
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * Sets the account holder name
-     * @param nombre Account holder name
+     * Establece el nombre del titular
+     * @param nombre Nombre del titular
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
-     * Gets the account number
-     * @return Account number
+     * Obtiene el número de cuenta
+     * @return Número de cuenta
      */
     public String getCuenta() {
         return cuenta;
     }
 
     /**
-     * Sets the account number
-     * @param cuenta Account number
+     * Establece el número de cuenta
+     * @param cuenta Número de cuenta
      */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
 
     /**
-     * Gets the current balance
-     * @return Current balance
+     * Obtiene el saldo actual
+     * @return Saldo actual
      */
     public double getSaldo() {
         return saldo;
     }
 
     /**
-     * Sets the current balance
-     * @param saldo Balance to set
+     * Establece el saldo
+     * @param saldo Saldo a establecer
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
     /**
-     * Gets the interest rate
-     * @return Interest rate
+     * Obtiene el tipo de interés
+     * @return Tipo de interés
      */
     public double getTipoInterés() {
         return tipoInterés;
     }
 
     /**
-     * Sets the interest rate
-     * @param tipoInterés Interest rate to set
+     * Establece el tipo de interés
+     * @param tipoInterés Tipo de interés a establecer
      */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
