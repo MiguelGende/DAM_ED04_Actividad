@@ -16,7 +16,7 @@ Initialized empty Git repository in /Users/miguel/Desktop/TAREAS DAW 2/CONTORNOS
 - **Usuario:** [Usuario configurado]
 - **Email:** [Email configurado]
 
-## 2. Primer Commit - COMPLETADO
+## 2. Primer Commit
 
 ### Archivos agregados al staging area
 ```bash
@@ -64,7 +64,7 @@ git commit -m "Initial commit: Proyecto cuentas bancarias con refactorización c
 - Configuración de .gitignore para Java
 - README.md con documentación del proyecto
 
-## 3. Historial de Versiones - COMPLETADO
+## 3. Historial de Versiones
 
 ### Comando para mostrar el historial
 ```bash
@@ -123,7 +123,7 @@ git log --pretty=format:"%h - %an, %ar : %s"
 
 ## 4. Crear Repositorio Público en GitHub
 
-### Opción A: Usando GitHub Web Interface (Recomendado)
+### Opción A: Usando GitHub Web Interface
 
 1. **Ir a GitHub:** https://github.com
 2. **Iniciar sesión** con tu cuenta
@@ -146,7 +146,7 @@ git log --pretty=format:"%h - %an, %ar : %s"
    git push -u origin main
    ```
 
-### Opción B: Usando GitHub CLI (si está instalado)
+### Opción B: Usando GitHub CLI
 
 ```bash
 # Instalar GitHub CLI primero (si no está instalado)
